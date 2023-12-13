@@ -1,13 +1,20 @@
 import React from 'react'
 import './portfolio.css'
-import me from '../../assets/me-about.jpg'
+import erp from '../../assets/erp.png'
 
 const data = [
   {
     id: 1,
-    image: me,
-    title: 'Tic Tac Toe Game',
-    github: 'https://github.com' 
+    image: erp,
+    title: 'College ERP',
+    github: 'https://github.com/vanishkag/College_erp' 
+  },
+
+  {
+    id: 2,
+    image: erp,
+    title: 'College ERP',
+    github: 'https://github.com/vanishkag/College_erp' 
   }
 ]
 
