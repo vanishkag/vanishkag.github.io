@@ -1,6 +1,8 @@
 import React from 'react'
 import './portfolio.css'
 import erp from '../../assets/erp.png'
+import cd from '../../assets/cd.png'
+import cn from '../../assets/cn.png'
 
 const data = [
   {
@@ -12,9 +14,16 @@ const data = [
 
   {
     id: 2,
-    image: erp,
-    title: 'College ERP',
-    github: 'https://github.com/vanishkag/College_erp' 
+    image: cd,
+    title: 'CD Mini Project',
+    github: 'https://github.com/vanishkag/CD-Mini-Project' 
+  },
+
+  {
+    id: 3,
+    image: cn,
+    title: 'Network Monitoring Tool',
+    github: 'https://github.com/vanishkag/Network-Monitoring-Tool' 
   }
 ]
 
