@@ -1,4 +1,39 @@
 nav{
+    background: rgba(69, 90, 91, 0.3);
+    width: 100%;
+    display: block;
+    padding: 1.5rem 2rem;
+    z-index: 2;
+    position: fixed;
+    display: flex;
+    gap: 0.8rem;
+    backdrop-filter: blur(15px);
+    height: 4.25rem;
+}
+
+nav a{
+    background: transparent;
+    padding-inline: 0.5rem;
+    border-radius: 50%;
+    color: var(--color-light);
+    font-size: 1.1rem;
+    transition: var(--transition);
+    text-align: center;
+}
+
+nav a:hover{
+    color: var(--color-primary);
+}
+
+nav a.active{
+    color: var(--color-primary);
+}
+
+h1{
+    padding-right: 24rem;
+}
+
+/*nav{
     position: fixed;
     width: 7rem;
     background-color: rgb(37, 35, 35);
@@ -8,37 +43,28 @@ nav{
     left: 0;
     height: 100%;
     
-}
+}*/
 
-nav h1{
+/*nav h1{
     padding-top: 2rem;
     margin-bottom: 10.5rem;
-}
+}*/
 
-nav a {
+/*nav a {
     display: block;
     gap: 10rem;
     padding: 0.7rem;
     text-decoration: none;
-    color: #ffffff; /* Text color */
-}
-
-nav a:hover{
-    background: rgba(0, 0, 0, 0.3);
-}
-
-/*nav a.active{
-    background: var(--color-primary);
-    color: var(--color-bg);
+    color: #ffffff; 
 }*/
 
-hr{
+/*hr{
     border: 0.1px solid #585353;
     width: 7rem;
-}
+}*/
 
 /*nav{
-    background: rgba(0, 0, 0, 0.3);
+    background: rgba(69, 90, 91, 0.3);
     width: max-content;
     display: block;
     padding: 0.7rem 1.7rem;
@@ -53,10 +79,3 @@ hr{
     backdrop-filter: blur(15px);
 }*/
 
-/*nav a{
-    background: transparent;
-    padding-inline: 0.5rem;
-    border-radius: 50%;
-    color: var(--color-light);
-    font-size: 1.1rem;
-}*/

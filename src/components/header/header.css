@@ -28,9 +28,9 @@ header {
 /* Scroll Down Left Side */
 .scroll__down_left{
     position: absolute;
-    left: -5.5rem;
+    left: -12.5rem;
     bottom: 17.5rem;
-    transform: rotate(270deg);
+    transform: rotate(90deg);
     font-weight: 300;
     font-size: 0.9rem;
     margin-left: 0rem;
