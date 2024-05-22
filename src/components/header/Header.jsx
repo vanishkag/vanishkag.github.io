@@ -32,7 +32,6 @@ const Header = () => {
         <h4 className="h4_tag">&lt;p&gt;</h4>
         <h4 className="p_text">CS Undergrad | Web Developer | Coder | Keyboardist</h4>
         <h4 className="h4_tag">&lt;/p&gt;</h4>
-        <CTA />
 
        <h4 className='scroll__down_left'>Scroll Down</h4> 
        <h4 className='scroll__down_right'>Scroll Down</h4> 
