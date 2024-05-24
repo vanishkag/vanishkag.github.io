@@ -12,11 +12,13 @@ const Nav = () => {
     <nav>
       <h1>VG</h1>
       <br/>
-      <a href='#about' onClick={() => setActiveNav('#about')} className={activeNav === '#about' ? 'active': ''}>//about</a>
+      <a href='#' onClick={() => setActiveNav('#')} className={activeNav === '#' ? 'active': ''}>//home</a>
+      <br/>
+      <a href='#skills' onClick={() => setActiveNav('#skills')} className={activeNav === '#skills' ? 'active': ''}>//skills</a>
       <hr/>
       <a href='#portfolio' onClick={() => setActiveNav('#portfolio')} className={activeNav === '#portfolio' ? 'active': ''}>//work</a>
       <hr/>
-      <a href='#experience' onClick={() => setActiveNav('#experience')} className={activeNav === '#experience' ? 'active': ''}>//skills</a>
+      <a href='#experience' onClick={() => setActiveNav('#experience')} className={activeNav === '#experience' ? 'active': ''}>//experience</a>
       <hr/>
       <a href='#contacts' onClick={() => setActiveNav('#contacts')} className={activeNav === '#contacts' ? 'active': ''}>//contact</a>
       <hr/>
